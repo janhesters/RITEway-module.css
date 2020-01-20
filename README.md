@@ -1,5 +1,7 @@
 # RITEway with module.css files
 
+How to set up Tape (regular Babel) to work with `module.css` files.
+
 (Works for regular CSS files, too!)
 
 1. Install [babel-plugin-module-name-mapper](https://github.com/mgcrea/babel-plugin-module-name-mapper).
