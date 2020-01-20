@@ -1,15 +1,22 @@
 {
-  "name": "withriteway",
-  "version": "0.1.0",
-  "private": true,
-  "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start"
-  },
   "dependencies": {
     "next": "9.2.0",
     "react": "16.12.0",
     "react-dom": "16.12.0"
-  }
+  },
+  "devDependencies": {
+    "@babel/core": "7.8.3",
+    "@babel/node": "7.8.3",
+    "babel-plugin-module-name-mapper": "1.2.0",
+    "riteway": "6.1.1"
+  },
+  "name": "withriteway",
+  "private": true,
+  "scripts": {
+    "build": "next build",
+    "dev": "next dev",
+    "start": "next start",
+    "test": "NODE_ENV=test babel-node ./src/index.test.js"
+  },
+  "version": "0.1.0"
 }
